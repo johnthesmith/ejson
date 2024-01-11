@@ -73,8 +73,18 @@ array_of_string "value 1" "value 2" "etc"
     0. bool - written as ```true``` or ```false```
     0. int - written as ```0```, ```1```, ```-2``` etc
     0. float - written as ```0.0```, ```-0.1```, ```1e12``` etc
-    0. array - look at #array section
-    0. object - look at #object section
+    0. string - look at [string](#string)
+    0. array - look at [array](#array)
+    0. object - look at [object](#array)
+
+
+# string
+
+
+# array
+
+# object
+
 
 
 # Reserved words
