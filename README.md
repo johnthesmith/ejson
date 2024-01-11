@@ -69,8 +69,8 @@ array_of_string "value 1" "value 2" "etc"
 0. Each line has the key or delimiter in the begining.
 0. The key and value are separated by spaces.
 0. Values ​​can be typed based on syntax:
-    1. null - writen as ``null```
-    0. bool - written as ```true`` or ``false```
+    1. null - writen as ```null```
+    0. bool - written as ```true``` or ```false```
     0. int - written as ```0```, ```1```, ```-2``` etc
     0. float - written as ```0.0```, ```-0.1```, ```1e12``` etc
     0. array - look at #array section
