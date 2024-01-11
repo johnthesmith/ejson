@@ -1,6 +1,7 @@
 # ljson
 
-Light JSON
+Light JSON is a minified JSON format without parentheses or delimiters such as { } etc.
+
 
 
 ## Example
@@ -55,6 +56,16 @@ array_of_int_line 0 1 2
 array_of_float_lien 0.1 -2.3 1e12
 array_of_string "value 1" "value 2" "etc"
 ```
+
+
+
+# Rules
+
+1. Each line can contain # character for comment.
+0. The format contains key and value pairs.
+0. Each line has the key or delimiter in the begining.
+0. The key and value are separated by spaces.
+
 
 
 # Reserved words
