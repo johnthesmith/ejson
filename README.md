@@ -19,6 +19,9 @@ example text multiline
 object
     key_1 value1
     key_2 value2
+    subobject
+        key_3 value3
+        key_4 value4
 array_of_bool
     true
     false
