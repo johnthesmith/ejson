@@ -5,7 +5,7 @@ Light JSON
 
 ## Example
 
-```json
+```
 # it is comments
 # simple data type
 null null
