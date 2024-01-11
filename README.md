@@ -46,3 +46,11 @@ array_of_mixed
     0
     0.1
 ```
+
+
+# Reserved words
+
+1. null - empty value
+0. true - boolean true value
+0. false - boolean false value
+
