@@ -1,9 +1,6 @@
 # ljson
 
 1. Light JSON is a minified JSON format with minimum numbers of lexemes.
-0. The format offers:
-    1. the uniquely invertible transformations ```ljson = f( json )```.
-    0. the specific invertible transformations ```json = j( ljson )``` without coments.
 
 
 
@@ -44,6 +41,15 @@ array_linear true, 1, 3.14, value with space,
 # Some cases
 "key with space" value
 ```
+
+
+
+# Transformations
+
+0. The format offers:
+    1. the uniquely invertible transformations ```ljson = f( json )```.
+    0. the specific invertible transformations ```json = j( ljson )``` without coments.
+0. LJSON can not be converted to text without a newline character.
 
 
 
