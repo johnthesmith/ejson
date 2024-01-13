@@ -1,13 +1,22 @@
-# ljson
+# ejson
 
-1. Light JSON is a minified JSON format with minimum numbers of lexemes.
+1. Easy JSON is a minified JSON format with minimum numbers of lexemes.
+
+
+
+# Transformations
+
+0. The format offers:
+    1. the uniquely invertible transformations ```ejson = f( json )```.
+    0. the specific invertible transformations ```json = j( ejson )``` without coments.
+0. ejson can not be converted to text without a newline character.
 
 
 
 ## Example
 
 ```
-# This is example of LJSON fromat
+# This is example of ejson fromat
 # Simple data types
 null null
 bool true
@@ -41,15 +50,6 @@ array_linear true, 1, 3.14, value with space,
 # Some cases
 "key with space" value
 ```
-
-
-
-# Transformations
-
-0. The format offers:
-    1. the uniquely invertible transformations ```ljson = f( json )```.
-    0. the specific invertible transformations ```json = j( ljson )``` without coments.
-0. LJSON can not be converted to text without a newline character.
 
 
 
@@ -219,7 +219,7 @@ Look at the following examples.
 
 ## empty file
 
-```ljson
+```ejson
 ```
 
 ```json
@@ -230,7 +230,7 @@ Look at the following examples.
 
 ## null
 
-```ljson
+```ejson
 key null
 ```
 
@@ -244,7 +244,7 @@ key null
 
 ## Man
 
-```ljson
+```ejson
 first_name  jhoan
 last_name   smith
 age         32
@@ -262,7 +262,7 @@ age         32
 
 ## Integers
 
-```ljson
+```ejson
 0,1,2,3,4,5,6,7,8,9
 ```
 
@@ -276,7 +276,7 @@ age         32
 
 ## Object with propertyes and subobnjects
 
-```ljson
+```ejson
 object
     color red
     size huge
@@ -302,7 +302,7 @@ object
 
 ## Array of sting for animals and bioms
 
-```ljson
+```ejson
 animals
     "green frog"
     "yellow lion"
@@ -329,7 +329,7 @@ bioms swamp, savannah, desert
 
 ## Array of objects
 
-```ljson
+```ejson
 array
     .
         color orange
@@ -359,7 +359,7 @@ array
 
 ## Text
 
-```ljson
+```ejson
 top
 "
 this is a multiline 
