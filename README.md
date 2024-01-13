@@ -8,7 +8,7 @@
 
 # Transformations
 
-0. The format offers:
+1. The format offers:
     1. the uniquely invertible transformations ```ejson = f( json )```.
     0. the specific invertible transformations ```json = j( ejson )``` without coments.
 0. ejson can not be converted to text without a newline character.
