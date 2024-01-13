@@ -1,6 +1,8 @@
-# ejson
+# EJSON
 
 1. Easy JSON is a minified JSON format with minimum numbers of lexemes.
+0. EJSON readed without ```j```.
+
 
 
 
